@@ -83,6 +83,7 @@ const App = () => {
                     </div>
                     <div>
                         <button className='btn btn-primary' onClick={AddEmpleado}>Add</button>
+                        <button className='btn btn-success mt-4' onClick={update}>Update</button>
                     </div>
                 </form>
             </div>
