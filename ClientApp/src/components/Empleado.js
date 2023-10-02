@@ -104,6 +104,9 @@ const App = () => {
                                         <th scope='row'>{empleado.id}</th>
                                         <td>{empleado.nombre}</td>
                                         <td>{empleado.cargo}</td>
+                                        <td>
+                                        <button className='btn btn-warning' onClick={()=>EditEmpleado(empleado)}>Edit</button>
+                                        </td>
                                     </tr>
                                 </tbody>
                             )
