@@ -33,6 +33,29 @@ const App = () => {
             alert(error);            
         }
     }
+    async function EditEmpleado(empleado){
+        setnombre(empleado.nombre);
+        setcargo(empleado.cargo);
+        setid(empleado.id);
+    }
+    async function update(event){
+        event.preventDefault();
+        try {
+            await axios.patch("api/Empleado/UpdateEmpleado/"+empleados.find((u)=>u.id ==id).id || id,
+           {
+                id: id,
+                nombre: nombre,
+                cargo: cargo,
+           })
+            alert("Empleado actualizado");   
+            setid("");
+            setnombre("");
+            setcargo("");
+            ListEmpleados();   
+        } catch (error) {
+            alert(error);            
+        }
+    }
     return ( 
         <div className='container'>
             <h1>Empleados</h1>
