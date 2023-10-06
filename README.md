@@ -1,6 +1,6 @@
 REACT Y .NET 
 
-Cmbinar React y .NET te permite aprovechar las fortalezas de ambas tecnologías para desarrollar aplicaciones web modernas y escalables. React se encarga de la interfaz de usuario altamente interactiva, mientras que .NET proporciona un sólido backend y herramientas para la administración de datos y la lógica del servidor. Esta combinación es popular en el desarrollo web empresarial y ofrece una variedad de ventajas para desarrolladores y equipos de desarrollo.
+Combinar React y .NET te permite aprovechar las fortalezas de ambas tecnologías para desarrollar aplicaciones web modernas y escalables. React se encarga de la interfaz de usuario altamente interactiva, mientras que .NET proporciona un sólido backend y herramientas para la administración de datos y la lógica del servidor. Esta combinación es popular en el desarrollo web empresarial y ofrece una variedad de ventajas para desarrolladores y equipos de desarrollo.
 
 ![image](https://github.com/EmiliaM152/WebProyectoCrud/assets/115099264/35207bd4-dbbb-4c03-96b8-e32398e9507e)
 
