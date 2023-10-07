@@ -39,7 +39,25 @@ namespace asp_react_crud_webE.Controllers
         {
             _dbcontext.Entry(empleado).State = EntityState.Modified;
             await _dbcontext.SaveChangesAsync();
+            return empleado;
         }
-            
+        [HttpDelete]
+        [Route("DeleteEmpleado/{id}")]
+        public bool DeleteEmpleado(int id)
+        {
+           bool deleted = false;
+           var empleado = _dbcontext.Empleado.Find(id);
+           if(empleado !=null){
+            deleted = true;
+            _dbcontext.Entry(empleado).State = EntityState.Deleted;
+            _dbcontext.SaveChanges();
+           }
+           else
+           {
+                deleted=false;
+           }
+           return deleted;
+        }
 
+    }   
 }
