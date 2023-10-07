@@ -8,6 +8,8 @@ namespace asp_react_crud_webE.Models
         public int Id { get; set; }
         public string Nombre { get; set; }
         public string Cargo { get; set; }
+        public string Telefono { get; set; } // Add the new field
+
 
     }
 }
